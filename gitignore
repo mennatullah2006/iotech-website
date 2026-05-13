@@ -1,0 +1,18 @@
+# ============================================================
+#  .gitignore — files that will NOT be uploaded to GitHub
+# ============================================================
+
+# Your real PHP file with database credentials
+save_contact.php
+
+# Your real SQL file with database structure
+database_setup.sql
+
+# Common sensitive files
+.env
+config.php
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.vscode/
